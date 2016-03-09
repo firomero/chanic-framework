@@ -1,2 +1,2 @@
 # chanic-framework
-Chaanic-Framework Micro Services Oriented
+Chanic-Framework Micro Services Oriented
