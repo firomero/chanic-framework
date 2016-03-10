@@ -1,0 +1,47 @@
+{
+
+  "name":  "Codechanic/Chanic",
+  "authors":
+  [
+    {
+      "name":     "Felix Ivan Romero Rodriguez",
+      "email":    "firomerorom4@gmail.com",
+      "homepage": "http://codechanic.wordpress.com"
+    },
+    {
+      "name":     "Osmany Torres Leyva",
+      "email":    "manytostao@gmail.com",
+      "homepage": "http://codechanic.wordpress.com"
+    },
+    {
+      "name":     "Yainier Martínez Rubén",
+      "email":    "y.ruben1901@gmail.com",
+      "homepage": "http://codechanic.wordpress.com"
+    }
+  ],
+
+  "keywords": ["framework"],
+
+  "license": "MIT",
+
+  "require": {
+
+    "symfony/class-loader": "*",
+    "symfony/http-foundation": "*",
+    "symfony/routing": "*",
+    "symfony/http-kernel": "*",
+    "symfony/event-dispatcher": "*",
+    "symfony/dependency-injection": "*",
+    "raulfraile/ladybug": "^1.0"
+
+
+
+  },
+  "autoload": {
+    "psr-0": {
+      "Chanic": "app/"
+
+    }
+  }
+
+}
